@@ -2,5 +2,5 @@
 #include<stdio.h>
 
 void main(){
-    printf("Welcome to C programming");
+    printf("Welcome to C programming\n");
 }
