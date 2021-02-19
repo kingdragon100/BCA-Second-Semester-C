@@ -4,10 +4,9 @@
 #include<math.h>
 
 void main(){
-    int a, b, c;
-    float d, x1, x2;
+    float a, b, c, d, x1, x2;
     printf("Enter the coefficient of quadratic equation: ");
-    scanf("%d%d%d", &a, &b, &c);
+    scanf("%f%f%f", &a, &b, &c);
     if (a == 0)
     {
         printf("Equation is not quadratic.\n");
