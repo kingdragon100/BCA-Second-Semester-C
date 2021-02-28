@@ -7,11 +7,10 @@ void main(){
     printf("Enter n number: ");
     scanf("%d", &count);
 
-    for (int i = 0; i <= count; i++)
+    for (int i = 1; i <= count; i++)
     {
-        printf("%2d\n",i);
         sum += i;
     }
-    printf("\nSum = %d\n", sum);
+    printf("Sum = %d\n", sum);
     
 }
