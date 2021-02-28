@@ -5,7 +5,7 @@
 void main(){
     int i, j, prime;
 
-    for (i = 2; i < 100; i++)
+    for (i = 2; i <= 100; i++)
     {
         prime = 1;
         for (j = 2; j < i; j++)

@@ -10,7 +10,7 @@ void main(){
     while (n != 0)
     {
         rem = n % 10;
-        n = n / 10;
+        n /= 10;
         sum += rem;
     }
     printf("Sum: %d\n", sum);
