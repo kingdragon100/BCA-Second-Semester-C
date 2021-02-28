@@ -3,31 +3,24 @@
 #include<stdio.h>
 
 void main(){
-    int count, sum = 0, i = 0, choice;
-    printf("\n1. for Loop\n2. while loop\n3. do while loop\n4. all loops\n");
-    printf("Enter your choice: ");
-    scanf("%d", &choice);
+    int count, sum = 0, i = 1;
     printf("Enter 'n' no: ");
     scanf("%d", &count);
-
-    for (i = 0; i <= count; i++)
+    for (i = 1; i <= count; i++)
     {
         sum += i * i;
     }
-    printf("Sum: %d\n", sum);
-
+    printf("Sum (using for loop): %d\n", sum);
     while(i <= count)
     {
         sum += i * i;
         i++;
     }
-    printf("Sum: %d\n", sum);
-
+    printf("Sum (using while loop): %d\n", sum);
     do
     {
         sum += i * i;
         i++;
-    } while (i < count);
-    printf("Sum: %d\n", sum);
-
+    } while (i <= count);
+    printf("Sum (using do while loop): %d\n", sum);
 }
