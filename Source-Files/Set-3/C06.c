@@ -7,7 +7,7 @@ void main(){
     printf("Enter 'n' number: ");
     scanf("%d", &count);
 
-    for (int i = 0; i <= count; i++)
+    for (int i = 1; i <= count; i++)
     {
         printf("%2d. %d\n", i, even);
         sum += even;
