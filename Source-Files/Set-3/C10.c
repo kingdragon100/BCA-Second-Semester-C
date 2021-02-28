@@ -4,7 +4,7 @@
 
 void main(){
     int series = 1;
-    for (int i = 1; i < 10; i++)
+    for (int i = 1; i <= 10; i++)
     {
         printf("%3d,", series);
         series += 4;
