@@ -10,6 +10,6 @@ void main(){
     value = pow(base,power);
     printf("The value of base(%d) raised to the power(%d) is %d\n",base,power,value);
 
-    //gcc S330.c -lm
+    //gcc C30.c -lm
     //(./a.out)
 }

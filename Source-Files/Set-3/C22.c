@@ -13,6 +13,6 @@ void main(){
 
     for (int i = 1; i <= 10; i++)
     {
-        printf("%2d * %2d\t= %4d\n", count, i, count * i);
+        printf("%2d  *  %2d   = %3d\n", count, i, count * i);
     }
 }
