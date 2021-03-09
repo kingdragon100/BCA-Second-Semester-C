@@ -8,7 +8,6 @@ c) 1^1 +2^2 +3^3 +4^4 +.... Upto n th terms*/
 
 void main(){
     int choice,count,odd = 1,denominator;
-    char *choice2;
     double sum = 0,s;
     start:
     printf("Menu:\nProgram to find the sum of the following:\n");
@@ -51,6 +50,7 @@ void main(){
         printf("Invalid Value!!!\n");
         break;
     }
-    //gcc S331.c -lm
+    
+    //gcc C31.c -lm
     //(./a.out)
 }
